@@ -1,0 +1,142 @@
+body{
+    background-color:#fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    border-bottom: 1px solid gray;
+    background-color: #396A92;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 0;
+}
+
+.content-title{
+
+    color: #091D42;
+}
+nav{
+
+    float: right;
+}
+
+.navigation{
+    list-style: none;
+
+
+}
+
+.navigation li{
+
+    display: inline;
+    margin-left: 10px;
+}
+.centerdiv{
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center
+
+}
+
+#h1{
+    background-color:#97CCEE;
+    float: left;
+    padding: 15px;
+    margin: 0;
+    color: #396A92;
+
+}
+
+#box-1{
+    border: 1px solid #999;
+    margin-top: 150px;
+    background-color: #E9F2F9;
+    /*height: 440px;*/
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+   
+    
+}
+.content{
+    padding: 20px;
+
+}
+
+footer{
+    border-top: 5px solid #9AB4CB;
+    bottom: 0;
+    background-color:#091D42;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    color: #9AB4CB;
+}
+
+.float-left{
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.paragraph{
+    margin-left: 5px;
+
+}
+
+.my-form{
+	padding:20px;
+}
+
+.my-form .form-group{
+	padding-bottom:15px;
+}
+
+.my-form label{
+	display:block;
+}
+
+.my-form input[type="text"], .my-form textarea{
+	padding:8px;
+	width:100%;
+}
+a{
+    color: #fff;
+    text-decoration-line: none;
+}
+
+div .image-wrapper{
+	float:left; /* important */
+    position:relative; /* important(so we can absolutely position the description div */
+    margin-left: 15px;
+    margin-bottom: 30px;
+}
+div .description{
+	position:absolute; /* absolute position (so we can position it where we want)*/
+	bottom:0px; /* position will be on bottom */
+	left:0px;
+	width:100%;
+	/* styling bellow */
+	background-color:black;
+	color:white;
+	opacity:0.6; /* transparency */
+    filter:alpha(opacity=60); /* IE transparency */
+    text-align:center;
+}
+p .description_content{
+	padding:10px;
+	margin:0px;
+    font-size: 30px;
+}
+
